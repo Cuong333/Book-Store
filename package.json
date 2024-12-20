@@ -4,7 +4,8 @@
   "description": "bookstore",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon src/index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +22,17 @@
   },
   "homepage": "https://github.com/Cuong333/Book-Store#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "mongoose-delete": "^1.0.2",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoosen": "^1.0.4"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9"
   }
 }
